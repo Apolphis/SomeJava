@@ -17,7 +17,10 @@ public class CurrentAccount extends Account{
     public CurrentAccount(){
 
     }
-
+@Override
+public String toString(){
+    return  accnum + " | " + bal + " | " + accountType + " | " + overdraft;
+}
 }
 
 

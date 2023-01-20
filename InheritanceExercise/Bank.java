@@ -21,7 +21,7 @@ public class Bank {
                     + " \n 2. Open an Account \n 3. Search for a specified Account \n 4. Deposit to a specified Account \n 5. Withdraw from a specified Account"
                     + " \n Enter your option here: ");
                     
-                    choice = reusableInput.nextInt();
+                    choice = Integer.parseInt(reusableInput.nextLine());
 
                     switch(choice){
 
@@ -91,9 +91,9 @@ public class Bank {
 
     static void buildAccounts(Account account){
         System.out.println("Please enter a new account number: ");
-        int accnum = reusableInput.nextInt();
+        int accnum = Integer.parseInt(reusableInput.nextLine());
         System.out.println("Please enter your intial balance you would like to deposit into your account: ");
-        double bal = reusableInput.nextDouble();
+        double bal = Double.parseDouble(reusableInput.nextLine());
         accounts.put(accnum, account);
         System.out.println(accounts.toString());
         

@@ -20,4 +20,12 @@ public class SavingsAccount extends Account {
     public SavingsAccount(){
 
     }
+
+
+    @Override
+public String toString(){
+    return accnum + " | " + bal + " | " + accountType + " | " + interest;
+}
+
+
 }

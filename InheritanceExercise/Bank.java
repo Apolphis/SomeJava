@@ -93,7 +93,7 @@ public class Bank {
 
     static void buildAccounts(Account account){
         System.out.println("Please enter a new account number: ");
- Personal
+ 
         int accnum = Integer.parseInt(reusableInput.nextLine());
         System.out.println("Please enter your intial balance you would like to deposit into your account: ");
         double bal = Double.parseDouble(reusableInput.nextLine());

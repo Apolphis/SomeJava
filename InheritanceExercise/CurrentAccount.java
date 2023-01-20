@@ -22,6 +22,7 @@ public class CurrentAccount extends Account{
 public String toString(){
     return  this.accnum + " | " + this.bal + " | " + this.accountType + " | " + this.overdraft;
 }
+}
 
 
 

@@ -44,7 +44,8 @@ public class Account implements Comparable<Account>{
         return accountType;
     }
 
-    public String toString(int accnum, double bal, String accountType){
+    @Override
+    public String toString(){
         return "Account: " + accnum + " | " + "Balance: " + bal + " | " + "Account type: " + accountType;
     }
 

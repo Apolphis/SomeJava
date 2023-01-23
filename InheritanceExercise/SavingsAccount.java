@@ -24,8 +24,8 @@ public class SavingsAccount extends Account {
 
     @Override
 public String toString(){
-    return this.accnum + " | " + this.bal + " | " + this.accountType + " | " + this.interest;
-}
 
+    return this.accnum + " | " + this.bal + " | " + this.accountType + " | " + this.interest; 
+}
 
 }

@@ -84,7 +84,7 @@ public class Bank {
 
             for (Entry<Integer, Account> entry : entries){
 
-                System.out.println(entry.getKey() + " " + entry.getValue());
+                System.out.println(entry.getValue());
 
             }
         }
@@ -99,7 +99,7 @@ public class Bank {
         double bal = Double.parseDouble(reusableInput.nextLine());
 
 
-        accounts.put(accnum, account);
+        accounts.put(accnum,account);
         System.out.println(accounts.toString());
         
     }   
